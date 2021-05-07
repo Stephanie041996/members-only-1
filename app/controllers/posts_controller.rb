@@ -20,16 +20,14 @@ class PostsController < ApplicationController
 
   # POST /posts or /posts.json
   def create
-
     @post = current_user.posts.build(post_params)
 
-      if @post.save
-        redirect_to posts_path  
-        
-      else
-        render :new 
-      end
-    
+    if @post.save
+      redirect_to posts_path
+
+    else
+      render :new
+    end
   end
 
   # PATCH/PUT /posts/1 or /posts/1.json
