@@ -1,6 +1,15 @@
 # members-only
 
 - This project entails building a members-only app. The author of posts are kept secret unless logged
+- In this project, we built an exclusive clubhouse where  members can write anonymous posts. 
+- Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
+
+## Built With
+
+- Ruby on Rails --v 6.1.3
+- Ruby --v 2.7.2
+- SQL
+- Devise
 
 ## Getting started
 
@@ -23,6 +32,8 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 ## Deploying
+
+
 
 
 ## Branches
