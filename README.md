@@ -1,24 +1,47 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- This project entails building a members-only app. The author of posts are kept secret unless logged
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, first clone the repo and `cd` into the directory:
 
-* System dependencies
+```
+$ git clone git@github.com:JulianaOsemeke/members-only.git
+$ cd members-only
+```
 
-* Configuration
+Then install the needed packages (while skipping any Ruby gems needed only in production):
 
-* Database creation
+```
+$ bundle install
+```
 
-* Database initialization
+Next, migrate the database:
 
-* How to run the test suite
+```
+$ rails db:migrate
+```
+## Deploying
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Branches
 
-* ...
+Simply check out the corresponding branch using `git checkout`:
+
+```
+$ git checkout <branch name>
+```
+
+## Authors
+
+
+
+👤 **Juliana Osemeke**
+- GitHub: [@githubhandle](https://github.com/JulianaOsemeke)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juliana-osemeke/)
+![Juliana's GitHub stats](https://github-readme-stats.vercel.app/api?username=JulianaOsemeke&count_private=true&theme=dark&show_icons=true)
+
+👤 **Stephanie Sakuhuni**
+- GitHub: [@stephanie041996](https://github.com/Stephanie041996)
+- LinkedIn: [Stephanie Sakuhuni](www.linkedin.com/in/stephanie-michelle-sakuhuni) 
