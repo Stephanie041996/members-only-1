@@ -40,7 +40,6 @@ $ git checkout <branch name>
 👤 **Juliana Osemeke**
 - GitHub: [@githubhandle](https://github.com/JulianaOsemeke)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juliana-osemeke/)
-![Juliana's GitHub stats](https://github-readme-stats.vercel.app/api?username=JulianaOsemeke&count_private=true&theme=dark&show_icons=true)
 
 👤 **Stephanie Sakuhuni**
 - GitHub: [@stephanie041996](https://github.com/Stephanie041996)
