@@ -1,24 +1,59 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- This project entails building a members-only app. The author of posts are kept secret unless logged
+- In this project, we built an exclusive clubhouse where  members can write anonymous posts. 
+- Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails --v 6.1.3
+- Ruby --v 2.7.2
+- SQL
+- Devise
 
-* System dependencies
+## Getting started
 
-* Configuration
+To get started with the app, first clone the repo and `cd` into the directory:
 
-* Database creation
+```
+$ git clone git@github.com:JulianaOsemeke/members-only.git
+$ cd members-only
+```
 
-* Database initialization
+Then install the needed packages (while skipping any Ruby gems needed only in production):
 
-* How to run the test suite
+```
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Next, migrate the database:
 
-* Deployment instructions
+```
+$ rails db:migrate
+```
+## Deploying
+- Run "rails server" in terminal
+- open https://localhost:3000 in browser
+- sign up and enjoy
 
-* ...
+
+
+## Branches
+
+Simply check out the corresponding branch using `git checkout`:
+
+```
+$ git checkout <branch name>
+```
+
+## Authors
+
+
+
+👤 **Juliana Osemeke**
+- GitHub: [@githubhandle](https://github.com/JulianaOsemeke)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juliana-osemeke/)
+
+👤 **Stephanie Sakuhuni**
+- GitHub: [@stephanie041996](https://github.com/Stephanie041996)
+- LinkedIn: [Stephanie Sakuhuni](www.linkedin.com/in/stephanie-michelle-sakuhuni) 

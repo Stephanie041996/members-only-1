@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+
+
+  <%if user_signed_in? %>
+  <%= render 'signedin' %>
+  <% else %>
+  
+  <%= render 'signedout' %>
+
+  <% end %>
+  
+<br>
+
+<%= link_to 'New Post', new_post_path %>
