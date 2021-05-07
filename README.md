@@ -32,7 +32,9 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 ## Deploying
-
+- Run "rails server" in terminal
+- open https://localhost:3000 in browser
+- sign up and enjoy
 
 
 
